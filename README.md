@@ -17,7 +17,9 @@ URL tersebut adalah URL untuk koneksi ke message broker. Apabila URL pada publis
   ![publisher.png](img/publisher.png)
   > Kedua gambar tersebut adalah yang terjadi ketika saya melakukan perintah `cargo run` pada subscriber dan publisher. Yang terjadi adalah publisher mengirim 5 event kepada message broker yang kemudian event tersebut akan diterima dan diproses oleh publisher ditandai dengan output output tersebut pada gambar pertama.
 
-
+4. Monitoring chart based on publisher.
+ ![monitor.png](img/monitor.png)
+ Pada gambar tersebut, terlihat bahwa terdapat 2 spike pada grafik message rates last minute ketika saya menjalankan instruksi cargo run 2 kali pada publisher directory. Spike pada grafik message rates last minute menunjukkan jumlah message yang diterima oleh subscriber pada 1 menit terakhir. Semakin banyak, maka spike akan semakin tinggi. Pada kasus ini, jumlah message yang diterima subscriber pada 1 menit terakhir adalah 1 message per second.
 
 
 
