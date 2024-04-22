@@ -9,6 +9,9 @@ b. The url of: “amqp://guest:guest@localhost:5672” is the same as in the sub
 program, what does it mean? <br>
 URL tersebut adalah URL untuk koneksi ke message broker. Apabila URL pada publisher dan subscriber sama, artinya keduanya terhubung ke server yang sama untuk melakukan message exchange. Tujuannya adalah untuk memastikan bahwa message yang dipublish oleh publisher dapat diterima dan diolah oleh subscriber.
 
+2. Running RabbitMQ as message broker.
+ ![rabbitmq.jpg](img/rabbitmq.jpg)
+
 
 
 
