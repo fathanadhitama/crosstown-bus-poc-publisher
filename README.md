@@ -12,6 +12,13 @@ URL tersebut adalah URL untuk koneksi ke message broker. Apabila URL pada publis
 2. Running RabbitMQ as message broker.
  ![rabbitmq.jpg](img/rabbitmq.jpg)
 
+3. Sending and processing event
+ ![subscriber.png](img/subscriber.png)
+  ![publisher.png](img/publisher.png)
+  > Kedua gambar tersebut adalah yang terjadi ketika saya melakukan perintah `cargo run` pada subscriber dan publisher. Yang terjadi adalah publisher mengirim 5 event kepada message broker yang kemudian event tersebut akan diterima dan diproses oleh publisher ditandai dengan output output tersebut pada gambar pertama.
+
+
+
 
 
 
